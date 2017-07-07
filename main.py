@@ -20,4 +20,4 @@ if age >= 18:
     print("You are eligible to vote.")
 else:
     print("You will have to wait {0} more years to vote yet".format(18 - age))
-    print("Nevermind none of the choices right now are any good")
+
