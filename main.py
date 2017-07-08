@@ -48,4 +48,4 @@ elif guess > 5:
 # final else statement in first loop will display well done as if the guess is not <5 or >5 it must be 5
 else:
     print("Well done, you got it first time!")
-# If you are struggling to comprehend this loop, please see the attached flow chart.
+# If you are struggling to comprehend this loop, please see the attached flow chart
