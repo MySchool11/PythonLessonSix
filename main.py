@@ -49,3 +49,20 @@ elif guess > 5:
 else:
     print("Well done, you got it first time!")
 # If you are struggling to comprehend this loop, please see the attached flow chart
+########################################################################################################################
+# We can, however, make this whole loop a lot simpler
+guess = int(input("Please guess a number between 1 and 10: "))
+if guess != 5:
+    if guess < 5:
+        guess = int(input("Please guess higher: "))
+    else:
+        guess = int(input("Please guess lower: "))
+    if guess == 5:
+        print("Well done, you guessed it.")
+    else:
+        print("Sorry, you did not guess it.")
+else:
+    print("well done, you guessed it first time!")
+# see - 12 lines as opposed to the original 18 and the level of repetition is much less - a really important goal in
+# programming (remember dry and wet Don't Repeat Yourself is better than Writing Everything Twice)
+########################################################################################################################
