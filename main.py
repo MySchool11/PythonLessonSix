@@ -64,5 +64,6 @@ if guess != 5:
 else:
     print("well done, you guessed it first time!")
 # see - 12 lines as opposed to the original 18 and the level of repetition is much less - a really important goal in
-# programming (remember dry and wet Don't Repeat Yourself is better than Writing Everything Twice)
+# programming (remember being dry is better than being wet, Don't Repeat Yourself is better than Writing Everything
+# Twice)
 ########################################################################################################################
