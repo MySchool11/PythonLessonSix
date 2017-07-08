@@ -21,3 +21,31 @@ if age >= 18:
 else:
     print("You will have to wait {0} more years to vote yet".format(18 - age))
 
+# you can also use elif which is short for "else if"
+
+print("Please guess a number between 1 and 10")
+guess = int(input())
+# first if statement in first loop tests whether guess is less than five
+if guess < 5:
+    print("Please guess higher")
+    guess = int(input())
+    # if in second loop tests whether the second guess was equal to (==) five
+    if guess == 5:
+        print("Well done, you guessed it")
+    # else in second loop prints sorry message as guess != (not equal to) five, so is incorrect
+    else:
+        print("Sorry, you guessed incorrectly")
+# second elif statement in first loop tests whether guess is more than five
+elif guess > 5:
+    print("Press guess lower")
+    guess = int(input())
+    # if in third loop tests whether the second guess was equal to five
+    if guess == 5:
+        print("Well done, you guessed it")
+    # else in third loop prints sorry message as guess != five, so is incorrect
+    else:
+        print("Sorry, you guessed incorrectly")
+# final else statement in first loop will display well done as if the guess is not <5 or >5 it must be 5
+else:
+    print("Well done, you got it first time!")
+# If you are struggling to comprehend this loop, please see the attached flow chart
